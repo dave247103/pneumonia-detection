@@ -1,0 +1,24 @@
+# Datasets - these are large and should not be versioned
+/train/
+/test/
+
+# Python/Jupyter caches and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+venv/
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Any saved model weights
+*.pth
+
+# Generated output files
+*.png
+*.jpeg
+*.jpg
